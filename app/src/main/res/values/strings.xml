@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AndroidNivelamento</string>
+    <string name="ex1">Exercício 01</string>
+    <string name="ex2">Exercício 02</string>
+    <string name="ex3">Exercício 03</string>
+    <string name="ex4">Exercício 04</string>
+    <string name="ex5">Exercício 05</string>
+    <string name="ex6">Exercício 06</string>
+    <string name="ex7">Exercício 07</string>
+    <string name="ex8">Exercício 08</string>
+    <string name="ex9">Exercício 09</string>
+    <string name="ex10">Exercício 10</string>
+    <string name="ex11">Exercício 11</string>
+    <string name="ex12">Exercício 12</string>
+    <string name="assinatura">Lista de Exercício 1 - Desenvolvimento Mobile Metrocamp.</string>
+</resources>

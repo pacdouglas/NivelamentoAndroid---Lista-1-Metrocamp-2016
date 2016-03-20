@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="br.com.douglaspac.androidnivelamento.Ex12">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1000px">
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/nomeAluno12"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="39dp"
+            android:hint="Nome do Aluno" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/notaBim1"
+            android:layout_below="@+id/nomeAluno12"
+            android:layout_alignParentStart="true"
+            android:hint="Nota 1Bimestre" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/notaBim2"
+            android:layout_below="@+id/notaBim1"
+            android:layout_alignParentStart="true"
+            android:hint="Nota 2Bimestre" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/notaBim3"
+            android:layout_below="@+id/notaBim2"
+            android:layout_alignParentStart="true"
+            android:hint="Nota 3Bimestre" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/notaBim4"
+            android:hint="Nota 4Bimestre"
+            android:layout_below="@+id/notaBim3"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Verificar Situação do Aluno"
+            android:id="@+id/buttonSitAluno"
+            android:layout_below="@+id/faltasAluno"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/faltasAluno"
+            android:hint="Insira as Faltas"
+            android:layout_below="@+id/notaBim4"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+
+
+
+</ScrollView>
